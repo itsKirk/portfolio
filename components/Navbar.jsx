@@ -42,24 +42,24 @@ function Navbar({ children }) {
                 <ul>
                     <Link href='https://www.Linkedin.com/in/drwambua/' target='_blank' className='flex justify-between items-center w-[100px] ml-[-65px] hover:ml-[0px] duration-500 cursor-pointer'>
                         <span className='font-bold text-white'>LinkedIn</span>
-                        <FaLinkedinIn size={30} />
+                        <FaLinkedinIn className='text-[#7abe41]' size={30} />
                     </Link>
                     <Link href='https://twitter.com/DrWambua' target='_blank' className='flex justify-between items-center w-[100px] ml-[-65px] hover:ml-[0px] duration-500 cursor-pointer'>
                         <span className='font-bold text-white'>Twitter</span>
-                        <FaTwitter size={30} />
+                        <FaTwitter size={30} className='text-[#7abe41]' />
                     </Link>
 
                     <Link href='https://github.com/itsKirk' target='_blank' className='flex justify-between items-center w-[100px] ml-[-65px] hover:ml-[0px] duration-500 cursor-pointer'>
                         <span className='font-bold text-white'>Github</span>
-                        <FaGithub size={30} />
+                        <FaGithub size={30} className='text-[#7abe41]' />
                     </Link>
                     <Switch to='contact' smooth={true} className='flex justify-between items-center w-[100px] ml-[-65px] hover:ml-[0px] duration-500 cursor-pointer'>
                         <span className='font-bold text-white'>E Mail</span>
-                        <HiOutlineMail size={30} />
+                        <HiOutlineMail size={30} className='text-[#7abe41]' />
                     </Switch>
                     <Link href='Patrick&apos;s CV.pdf' download='Patrick&apos;s CV.pdf' className='flex justify-between items-center w-[100px] ml-[-65px] hover:ml-[0px] duration-500 cursor-pointer'>
                         <span className='font-bold text-white'>Resume</span>
-                        <BsPersonLinesFill size={30} />
+                        <BsPersonLinesFill size={30} className='text-[#7abe41]' />
                     </Link>
                 </ul>
             </div>
